@@ -1,0 +1,83 @@
+/**
+ * HW-Wireframe
+ **/
+
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:black ;
+ }
+
+ .wrapper {
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;  
+  }
+
+  #header {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    background-color: lightgray; 
+  }
+
+  #nav {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+  }
+
+  #content {
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+  }
+
+  .section-box {   
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #ccc;  
+    width: 50%;
+    height: 230px;
+    position: relative;
+  }
+
+  .aside-box {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ccc;
+    width: 40%;
+    height: 230px;
+    position: absolute;
+    right: 0;
+    top: 0;
+ }
+
+  .article-box {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: #ffffff;
+  }
+
+  .title-box {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+  }
+
+  .p-box {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    color: black;
+  }
+
+ #footer {
+    padding: 20px;
+    margin: 20px 0 20px; 
+    background: #ccc;
+ }
